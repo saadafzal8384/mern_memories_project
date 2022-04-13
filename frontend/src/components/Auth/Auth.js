@@ -60,7 +60,6 @@ const Auth = () => {
   };
   const googleError = (error) => {
     console.log(error);
-    console.log("Google Login Failed");
   };
   return (
     <Container component="main" maxWidth="xs">
